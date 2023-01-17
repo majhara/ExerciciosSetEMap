@@ -44,12 +44,13 @@ public class Program {
 		}	
 		
 		Set<Integer> allCourses = new HashSet<>();
+		
 		allCourses.addAll(courseA);
 		allCourses.addAll(courseB);
 		allCourses.addAll(courseC);
 		
 		System.out.print("Total students: " + allCourses.size());
-		
+		System.out.println();
 		sc.close();
 
 	}
